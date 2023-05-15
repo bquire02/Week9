@@ -2,9 +2,9 @@ def main():
   intro()
 
   try:
-    cups_desired = int(input('Enter the number of cups:'))
+    cups_ounces = int(input('Enter the number of cups:'))
 
-    cups_to_ounces(cups_desired)
+    cups_to_ounces(cups_ounces)
 
   except:
     print("An exception occurred, try again by entering only a number")
